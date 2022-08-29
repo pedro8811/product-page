@@ -1,0 +1,62 @@
+body {
+  text-align: right;
+  margin-left: 18%;
+  margin-right: 18%;
+  margin-top: 3%;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 14px;
+}
+
+.desc {
+  border: solid 2px black;
+  border-radius: 10px;
+  background: rgb(129, 251, 255);
+  background: linear-gradient(
+    279deg,
+    rgb(112, 250, 255) 0%,
+    rgb(150, 255, 166) 100%
+  );
+  padding: 40px;
+}
+
+#sub-desc {
+  border: solid 1px black;
+  border-radius: 10px;
+}
+
+#descricao {
+  /* TEXTO GRANDE */
+  width: 450px;
+
+  border: 2px solid black;
+  border-radius: 10px;
+  text-align: right;
+  background-color: white;
+}
+
+table {
+  font-size: 0.9em;
+  border: 2px solid black;
+  border-radius: 10px;
+  background-color: white;
+}
+td {
+  border-radius: 10px;
+  padding: 10px;
+  border: 2px solid black;
+}
+
+button {
+  width: 14em;
+  height: 3em;
+  font-size: 16px;
+  border-radius: 7px;
+  background-color: white;
+  border: 1px solid black;
+}
+
+button:hover {
+  box-shadow: 1px 1px 1px black;
+  background-color: rgb(177, 177, 177);
+}
