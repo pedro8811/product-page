@@ -45,3 +45,11 @@ fetch(
       document.getElementById("venOuLoc").innerHTML =
         "Imóvel disponível para locação.";
   });
+
+fetch(`https://www.multi.com.br/thumb.php?foto=vendas/02718/foto01.jpg`)
+  .then(function (data) {
+    return data.blob();
+  })
+  .then(function (result) {
+    console.log(result);
+  });

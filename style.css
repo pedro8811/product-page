@@ -1,62 +1,89 @@
 body {
-  text-align: right;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("img/background.jfif");
+  background-position: 0%;
+  background-blend-mode: darken;
   margin-left: 18%;
   margin-right: 18%;
-  margin-top: 3%;
+  margin-top: 5%;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   font-size: 14px;
+  background-color: rgb(141, 141, 141);
 }
 
 .desc {
-  border: solid 2px black;
-  border-radius: 10px;
-  background: rgb(129, 251, 255);
+  border-radius: 0.5em;
+  box-shadow: 0px 0px 32px black;
+  padding: 40px;
+  background: rgb(27, 123, 44);
   background: linear-gradient(
     279deg,
-    rgb(112, 250, 255) 0%,
-    rgb(150, 255, 166) 100%
+    rgb(42, 192, 70) 0%,
+    rgb(237, 255, 72) 100%
   );
-  padding: 40px;
+}
+
+img {
+  border-radius: 0.5em;
+  display: block;
+  margin: 0;
+  width: 325px;
+  height: 243, 75px;
 }
 
 #sub-desc {
-  border: solid 1px black;
-  border-radius: 10px;
+  text-align: right;
+  display: flex;
+  box-shadow: 0px 0px 11px black;
+  padding: 15px;
+  padding-right: 30px;
+  border-radius: 0.5em;
 }
 
 #descricao {
-  /* TEXTO GRANDE */
-  width: 450px;
-
-  border: 2px solid black;
-  border-radius: 10px;
-  text-align: right;
-  background-color: white;
+  font-weight: 600;
 }
 
 table {
+  border-radius: 0.5em;
   font-size: 0.9em;
-  border: 2px solid black;
-  border-radius: 10px;
+  position: absolute;
+  padding: 2em;
+  margin-top: 4.6%;
+  box-shadow: 0px 0px 11px black;
   background-color: white;
-}
-td {
-  border-radius: 10px;
-  padding: 10px;
-  border: 2px solid black;
+  transition: box-shadow 0.5s;
 }
 
-button {
+table:hover {
+  box-shadow: 0px 0px 15px black;
+}
+
+#valor {
+  margin-top: 2%;
+  margin-bottom: 2%;
+  text-decoration: underline;
   width: 14em;
   height: 3em;
-  font-size: 16px;
-  border-radius: 7px;
-  background-color: white;
-  border: 1px solid black;
+  font-size: 18px;
+  border: 0px;
+  margin-left: 69%;
 }
 
-button:hover {
-  box-shadow: 1px 1px 1px black;
-  background-color: rgb(177, 177, 177);
+#compra {
+  margin-left: 69%;
+  width: 14em;
+  height: 3em;
+  font-size: 18px;
+  border: 0px;
+  background-color: white;
+  box-shadow: 1px 1px 11px black;
+  transition: box-shadow 0.3s, border-radius 0.3s;
+}
+
+#compra:hover {
+  border-radius: 12px;
+  box-shadow: 1px 1px 15px black;
+  cursor: pointer;
 }
